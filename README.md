@@ -14,11 +14,12 @@ Install Apache Maven
 https://maven.apache.org
 
 Introduction
+------------
 
-This library allows building the path between two vertices.
-Implentation of this library based on the Depth-First Search (DFS) algorithm.
-The DFS algorithm is starting from starting point and go into depth of graph 
-until it reach a dead end and then move up to parent node. 
+This library allows building the path between two vertices.<br>
+Implentation of this library based on the Depth-First Search (DFS) algorithm.<br>
+The DFS algorithm is starting from starting point and go into depth of graph<br> 
+until it reach a dead end and then move up to parent node.<br> 
 
 
 Java classes
