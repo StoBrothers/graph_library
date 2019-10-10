@@ -1,7 +1,7 @@
-## Graph library
+# Graph library
 ------------
 
-# Technologies: Java 8, JUnit, Lombok.
+##### Technologies: Java 8, JUnit, Lombok.
 
 ========================
 
