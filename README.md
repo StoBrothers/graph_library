@@ -24,12 +24,12 @@ until it reaches a dead end and then move up to the parent node.
 Java classes
 --------------------------
 
-- ul Vertex - wrapper for user defined type.
-- ul Edge - edge between two vertices.
-- ul Graph - interface for working with graph instance.
-- ul GraphImpl - Implementation of directed and undirected graphs.
-- ul GraphsFactory - Factory for building directed and undirected graphs.
-- ul GraphType - types of graphs.
+- Vertex - wrapper for user defined type.
+- Edge - edge between two vertices.
+- Graph - interface for working with graph instance.
+- GraphImpl - Implementation of directed and undirected graphs.
+- GraphsFactory - Factory for building directed and undirected graphs.
+- GraphType - types of graphs.
 
 Test java classes
 --------------------------
@@ -53,13 +53,22 @@ mvn test
 ```
 
 This undirected graph used in tests.
+--------------------------
 
 ![alt text](https://github.com/StoBrothers/graph_library/blob/master/star_undirected.png)
 
 
 
 This directed graph used in tests.
+--------------------------
+
 ![alt text](https://github.com/StoBrothers/graph_library/blob/master/star_directed.png)
+
+
+Example of test results
+--------------------------
+
+![alt text](https://github.com/StoBrothers/graph_library/blob/master/test.log)
 
 
 
