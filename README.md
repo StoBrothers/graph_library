@@ -1,9 +1,9 @@
-# graph_library
-Graph library
+#### graph_library
+
+## Graph library
 ------------
 
-Technologies: Java 8, JUnit, lombok.
-------------
+Technologies: Java 8, JUnit, Lombok.
 
 ========================
 
