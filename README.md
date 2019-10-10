@@ -16,21 +16,20 @@ https://maven.apache.org
 Introduction
 ------------
 
-This library allows building the path between two vertices.<br>
-Implentation of this library based on the Depth-First Search (DFS) algorithm.<br>
-The DFS algorithm is starting from starting point and go into depth of graph<br> 
-until it reach a dead end and then move up to parent node.<br> 
-
+This library allows building the path between two vertices.
+Implementation of this library based on the Depth-First Search (DFS) algorithm.
+The DFS algorithm is starting from starting point and go into the depth of the graph
+until it reaches a dead end and then move up to the parent node.
 
 Java classes
 --------------------------
 
-Vertex - wrapper for user defined type.
-Edge - edge between two vertices.
-Graph - interface for working with graph instance.
-GraphImpl - Implementation of directed and undirected graphs.
-GraphsFactory - Factory for building directed and undirected graphs.
-GraphType - types of graphs.
+- ul Vertex - wrapper for user defined type.
+- ul Edge - edge between two vertices.
+- ul Graph - interface for working with graph instance.
+- ul GraphImpl - Implementation of directed and undirected graphs.
+- ul GraphsFactory - Factory for building directed and undirected graphs.
+- ul GraphType - types of graphs.
 
 Test java classes
 --------------------------
@@ -52,8 +51,6 @@ How to run tests?
 ```
 mvn test
 ```
-
-
 
 This undirected graph used in tests.
 
