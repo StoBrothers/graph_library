@@ -1,7 +1,9 @@
 # graph_library
 Graph library
+------------
 
 Technologies: Java 8, JUnit, lombok.
+------------
 
 ========================
 
@@ -67,8 +69,6 @@ This directed graph used in tests.
 
 Example of test results
 --------------------------
-
-[alt text](https://github.com/StoBrothers/graph_library/blob/master/test.log)
 
 https://github.com/StoBrothers/graph_library/blob/master/test.log
 
