@@ -68,7 +68,10 @@ This directed graph used in tests.
 Example of test results
 --------------------------
 
-![alt text](https://github.com/StoBrothers/graph_library/blob/master/test.log)
+[alt text](https://github.com/StoBrothers/graph_library/blob/master/test.log)
+
+https://github.com/StoBrothers/graph_library/blob/master/test.log
+
 
 
 
