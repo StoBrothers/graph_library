@@ -1,0 +1,85 @@
+ T E S T S
+-------------------------------------------------------
+Running com.sto.graph.GraphUnitTest
+2019-10-10 10:33:45 DEBUG GraphUnitTest:44 - Test directed graph and checking expected result path version 1
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=0)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=1)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=2)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=3)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=4)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=6)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=9)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=10)
+2019-10-10 10:33:45 DEBUG GraphUnitTest:60 - Result path:[Edge [Vertex(vertex=0), Vertex(vertex=1)], Edge [Vertex(vertex=1), Vertex(vertex=2)], Edge [Vertex(vertex=2), Vertex(vertex=3)], Edge [Vertex(vertex=3)
+, Vertex(vertex=4)], Edge [Vertex(vertex=4), Vertex(vertex=6)], Edge [Vertex(vertex=6), Vertex(vertex=9)], Edge [Vertex(vertex=9), Vertex(vertex=10)], Edge [Vertex(vertex=10), Vertex(vertex=11)]]
+2019-10-10 10:33:45 DEBUG GraphUnitTest:137 - Test Undirected graph and checking expected result path is not existed
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=-99)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=5)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=4)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=3)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=2)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=1)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=0)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=14)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=12)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=9)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=6)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=7)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=8)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=10)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=11)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=13)
+2019-10-10 10:33:45 DEBUG GraphUnitTest:150 - Result path:[]
+2019-10-10 10:33:45 DEBUG GraphUnitTest:158 - Test Undirected graph and checking expected result path is not existed
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=-99)
+2019-10-10 10:33:45 DEBUG GraphUnitTest:167 - Result path:[]
+2019-10-10 10:33:45 DEBUG GraphUnitTest:93 - Test directed graph and checking expected result path version 2
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=14)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=12)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=9)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=10)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=11)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=13)
+2019-10-10 10:33:45 DEBUG GraphUnitTest:109 - Result path:[]
+2019-10-10 10:33:45 DEBUG GraphUnitTest:117 - Test directed graph and checking expected result path version 2
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=2)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=3)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=4)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=6)
+2019-10-10 10:33:45 DEBUG GraphUnitTest:129 - Result path:[Edge [Vertex(vertex=2), Vertex(vertex=3)], Edge [Vertex(vertex=3), Vertex(vertex=4)], Edge [Vertex(vertex=4), Vertex(vertex=6)], Edge [Vertex(vertex=6
+), Vertex(vertex=9)]]
+2019-10-10 10:33:45 DEBUG GraphUnitTest:20 - Test undirected graph and checking expected result path version 1
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=11)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=10)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=9)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=6)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=3)                                                                                                                                            10:34
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=2)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=1)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=0)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=14)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=12)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=13)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=4)
+2019-10-10 10:33:45 DEBUG GraphUnitTest:36 - Result path:[Edge [Vertex(vertex=11), Vertex(vertex=10)], Edge [Vertex(vertex=10), Vertex(vertex=9)], Edge [Vertex(vertex=9), Vertex(vertex=6)], Edge [Vertex(vertex
+=6), Vertex(vertex=3)], Edge [Vertex(vertex=3), Vertex(vertex=4)], Edge [Vertex(vertex=4), Vertex(vertex=5)]]
+2019-10-10 10:33:45 DEBUG GraphUnitTest:69 - Test undirected graph and checking expected result path version 2
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=11)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=10)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=9)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=6)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=3)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=2)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=1)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=0)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=14)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=12)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=13)
+2019-10-10 10:33:45 DEBUG GraphImpl:103 - Visit:Vertex(vertex=4)
+2019-10-10 10:33:45 DEBUG GraphUnitTest:85 - Result path:[Edge [Vertex(vertex=11), Vertex(vertex=10)], Edge [Vertex(vertex=10), Vertex(vertex=9)], Edge [Vertex(vertex=9), Vertex(vertex=6)], Edge [Vertex(vertex
+=6), Vertex(vertex=3)], Edge [Vertex(vertex=3), Vertex(vertex=4)], Edge [Vertex(vertex=4), Vertex(vertex=5)]]
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.195 sec
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
